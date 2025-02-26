@@ -1,0 +1,58 @@
+
+.swiper .swiper-slide {
+  display: flex;
+}
+/* Custom styles for Swiper navigation buttons */
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: #A700FF;
+  color: #1A202C;       
+  width: 22px;                     
+  height: 22px;                    
+  border-radius: 50%;              
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+.swiper-button-next{ 
+  right: 0px;
+}
+.swiper-button-prev{ 
+  left: 0px;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 12px;
+  color: white;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: #A700FF60;
+}
+
+
+
+
+/* Custom styles for Swiper pagination */
+/* Custom styles for Swiper pagination bullets */
+.swiper{
+  position: relative;
+  padding-bottom: 40px;
+}
+.swiper-pagination{
+  position: absolute;
+
+}
+  
+.swiper-pagination-bullet {
+  background-color: #A700FF;
+  width: 14px;
+  height: 4px;
+  border-radius: 2px;
+  margin: 0 10px;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #A700FF;
+  transform: scale(1.1);       
+}
